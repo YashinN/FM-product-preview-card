@@ -92,4 +92,8 @@
   font-size: 15px;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
 }

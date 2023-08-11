@@ -1,4 +1,5 @@
 import "./ProductCard.css";
+import CartIcon from "./icons/CartIcon";
 
 const ProductCard = () => {
   return (
@@ -25,7 +26,10 @@ const ProductCard = () => {
             <span className="price">$169.99</span>
           </div>
 
-          <button className="cart-btn">Add to Cart</button>
+          <button className="cart-btn">
+            <CartIcon />
+            Add to Cart
+          </button>
         </div>
       </div>
     </div>
