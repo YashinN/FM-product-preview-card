@@ -19,8 +19,12 @@ const ProductCard = () => {
             A floral, solar and voluptuous interpretation composed by Olivier
             Polge, Perfumer-Creator for the House of CHANEL.
           </p>
-          <span>$149.99</span>
-          <span>$169.99</span>
+
+          <div className="price-wrapper">
+            <span className="sale">$149.99</span>
+            <span className="price">$169.99</span>
+          </div>
+
           <button>Add to cart</button>
         </div>
       </div>
