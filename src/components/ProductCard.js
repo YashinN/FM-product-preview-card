@@ -25,7 +25,7 @@ const ProductCard = () => {
             <span className="price">$169.99</span>
           </div>
 
-          <button>Add to cart</button>
+          <button className="cart-btn">Add to Cart</button>
         </div>
       </div>
     </div>
