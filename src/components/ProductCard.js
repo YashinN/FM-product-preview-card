@@ -6,11 +6,17 @@ const ProductCard = () => {
     <div className="bg-wrapper">
       <div className="product-card">
         <div className="img-container">
-          <img
-            src="/images/image-product-desktop.jpg"
-            alt=""
-            className="product-img"
-          />
+          <picture>
+            <source
+              media="(max-width:600px)"
+              srcSet="/images/image-product-mobile.jpg"
+            />
+            <img
+              src="/images/image-product-desktop.jpg"
+              alt=""
+              className="product-img"
+            />
+          </picture>
         </div>
 
         <div className="content-container">
