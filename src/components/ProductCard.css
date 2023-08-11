@@ -97,3 +97,8 @@
   align-items: center;
   gap: 0.5rem;
 }
+
+.cart-btn:hover,
+.cart-btn:active {
+  background-color: #1b4032;
+}
