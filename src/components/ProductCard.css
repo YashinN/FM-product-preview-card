@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg-wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f2ebe3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-card {
+  display: flex;
+  max-width: 600px;
+  background-color: #fff;
+}
+
+.img-container {
+  width: 50%;
+}
+
+.content-container {
+  width: 50%;
+}
+
+.product-img {
+  width: 100%;
+  height: 100%;
+}

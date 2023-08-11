@@ -1,8 +1,16 @@
+import "./ProductCard.css";
+
 const ProductCard = () => {
   return (
     <div className="bg-wrapper">
       <div className="product-card">
-        <div className="img-container"></div>
+        <div className="img-container">
+          <img
+            src="/images/image-product-desktop.jpg"
+            alt=""
+            className="product-img"
+          />
+        </div>
 
         <div className="content-container">
           <span>PERFUME</span>
