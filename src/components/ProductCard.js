@@ -13,9 +13,9 @@ const ProductCard = () => {
         </div>
 
         <div className="content-container">
-          <span>PERFUME</span>
-          <h1>Gabrielle Essence Eau De Parfum</h1>
-          <p>
+          <span className="product-type">PERFUME</span>
+          <h1 className="title">Gabrielle Essence Eau De Parfum</h1>
+          <p className="text">
             A floral, solar and voluptuous interpretation composed by Olivier
             Polge, Perfumer-Creator for the House of CHANEL.
           </p>
