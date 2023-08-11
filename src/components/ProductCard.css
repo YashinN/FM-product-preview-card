@@ -63,3 +63,21 @@
   margin-bottom: 29px;
   line-height: 1.4rem;
 }
+
+.sale {
+  font-family: "Fraunces", serif;
+  font-size: 32px;
+  margin-right: 1rem;
+  color: hsl(158, 36%, 37%);
+}
+
+.price {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: line-through;
+  color: hsl(228, 12%, 48%);
+  font-size: 14px;
+}
+
+.price-wrapper {
+  margin-bottom: 24px;
+}
